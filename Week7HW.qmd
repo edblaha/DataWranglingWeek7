@@ -1,0 +1,58 @@
+---
+title: "Bartels Replication"
+author: Edward Blaha
+format: pdf
+execute:
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r}
+
+source("/Users/edwardblaha/DataWrangling/Week 7/DataWranglingWeek7/Week7HW.R")
+```
+
+## Figure 1: The Distribution of Party Identification, 1952-1996
+
+```{r}
+StackedPlots
+```
+
+## Figure 2: The Distribution of Party Identification, 1952-2020
+
+```{r}
+StackedPlots2
+```
+
+## Figure 3: The Distribution of Party Identification, 1952-2024
+
+```{r}
+StackedPlots3
+```
+
+## Figure 4: Distribution of Party Identification, 1952-2024, Midterms Included
+
+```{r}
+MidtermPlot
+```
+
+## Figure 5: Public Opinion on Partisan Handling of Environmental Issues
+
+```{r}
+EnvPartyPlot
+```
+
+## Figure 6: Big Business – Feeling Thermometer
+
+```{r}
+BusinessPlot
+```
+
+## Summary writeup
+
+Converting the data into a proportion for each year was difficult at first. I only solved this problem with the help of functions provided by AI. Other than this issue, replication was fairly straightforward.
+
+In the 1960s and 70s, partisanship appears to decline, with a larger share of respondents identifying as independent. This trend reverses in the 1980s and 1990s, however. Figure 2 demonstrates that this reversal was driven by voters, as strong/weak partisanship among presidential voters recovers and rises in the 1980s and 1990s, but it continues to decline among nonvoters, with only a modest uptick in 1996 from 1992.
+
+Extending Bartels' analysis through 2024 reveals that strong partisanship has continued to rise. In 1996, 32% of respondents identified as strong Democrats or Republicans, while in 2024 this group represented 45% of respondents. This rise is indicative of an increasingly polarized electorate. The overall share of people identifying as independent remains relatively stable, but pure independent identification declines while weak identification rises. Adding in midterm election years reveals no substantive difference.
